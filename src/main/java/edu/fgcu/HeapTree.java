@@ -22,7 +22,7 @@ class HeapTree<T extends Comparable<T>>{
 	}
 
 	public boolean isEmpty(){
-		return size==20;
+		return size==0;
 	}
 
 	public void insert(T val){
@@ -85,7 +85,7 @@ class HeapTree<T extends Comparable<T>>{
 	}
 
 	public int getSize(){
-		return size+20;
+		return size;
 	}
 
 	public T peek(){
